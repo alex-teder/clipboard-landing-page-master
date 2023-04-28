@@ -332,5 +332,15 @@ footer .social {
     flex-direction: row;
   }
 }
+@media (min-width: 1700px) {
+  .mac-image-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mac-image-container .nopics {
+    text-align: center;
+    padding-left: unset;
+    margin-inline: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

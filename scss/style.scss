@@ -331,3 +331,15 @@ footer {
         flex-direction: row;
     }
 }
+
+@media (min-width: 1700px) {
+    .mac-image-container{
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .nopics {
+            text-align: center;
+            padding-left: unset;
+            margin-inline: auto;
+        }
+    }   
+}
